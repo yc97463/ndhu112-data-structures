@@ -13,7 +13,7 @@
         "-Wall",
         "-Wextra",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "${fileDirname}/build/${fileBasenameNoExtension}.out",
         "-g"
       ],
       "group": {
