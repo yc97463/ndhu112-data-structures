@@ -9,12 +9,8 @@
       "command": "g++",
       "args": [
         "${file}",
-        "-O2",
-        "-Wall",
-        "-Wextra",
         "-o",
-        "${fileDirname}/build/${fileBasenameNoExtension}.out",
-        "-g"
+        "${fileDirname}/${fileBasenameNoExtension}.out"
       ],
       "group": {
         "kind": "build",
