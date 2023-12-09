@@ -10,13 +10,16 @@
       "args": [
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}.out"
+        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "-std=c++11"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": ["$gcc"]
+      "problemMatcher": [
+        "$gcc"
+      ]
     }
   ]
 }
