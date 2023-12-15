@@ -73,3 +73,9 @@ The height of the tree is 4.
 
 ### (j) Give the output of postorderPrint(T,T.root())
 ```hw1 hw2 hw3 homeworks/ pr1 pr2 pr3 programs/ grades cs016/ buyLow sellHigh papers/ market demos/ projects/ market demos/ grades cs252/ /user/rt/courses/```
+
+## 2. What are the minimum and maximum number of internal and external nodes in an improper binary tree with n nodes? In addition, please provide examples to illustrate your results.
+
+**Internal Nodes**: In a binary tree, an internal node is any node with one or two children. The maximum number of internal nodes in an improper binary tree with n nodes is `n-1` (when only one node is a leaf). The minimum number of internal nodes is when the tree is as elongated as possible, resembling a linked list. In this case, the minimum number of internal nodes is `⌈n/2⌉ -1`.
+
+**External Nodes**: External nodes (or leaf nodes) are those without any children. The maximum number of external nodes occurs in a highly imbalanced tree, like a linked list, which would be `⌈n/2⌉`. The minimum number of external nodes is 1, which happens in a tree where all but one node are internal.
